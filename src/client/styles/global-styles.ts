@@ -19,25 +19,15 @@ body {
   flex-direction: column;
 }
 
-#root > .App > header, #root > .App > footer {
-    flex: 0 0 auto;
-    height: 200px;
-    background: #071635;
-    width: 100%;
-}
-
-#root > .App > main {
-    flex:  1 1 auto;
-    width: 100%;
-    display: flex;
-    position: relative;
-    justify-content: center;
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  overflow: auto;
+}
+
 `;
 
 export default GlobalStyles;

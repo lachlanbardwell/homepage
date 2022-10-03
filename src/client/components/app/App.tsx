@@ -1,12 +1,14 @@
 import React from 'react';
 import GlobalStyles from '../../styles/global-styles';
-import { SuperGHeader } from '../header/header';
+import { MainPage } from '../../pages/main-page/main-page';
+import { Footer } from '../footer/footer';
 
 const App: React.FC = () => {
   return (
     <div className="App">
       <GlobalStyles />
-      <SuperGHeader />
+      <MainPage />
+      <Footer />
     </div>
   );
 };
