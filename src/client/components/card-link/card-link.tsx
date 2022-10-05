@@ -1,13 +1,6 @@
 import React from 'react';
 import { ICardProps } from '../../../types';
-import styled from 'styled-components';
-
-const CardStyles = styled.article`
-  padding: 10px;
-  margin: auto 5%;
-  border: 1px solid black;
-  height: 80%;
-`;
+import { CardStyles } from './card-link.styles';
 
 export const CardLink: React.FC<ICardProps> = (props) => {
   return (

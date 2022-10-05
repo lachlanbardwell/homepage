@@ -1,31 +1,8 @@
 import React from 'react';
-import styled from 'styled-components';
+import Lottie from 'lottie-react';
 import { CardLink } from '../../components/card-link/card-link';
-
-const MainPageStyles = styled.div`
-  background: rgb(152, 77, 1);
-  background: linear-gradient(
-    180deg,
-    rgba(152, 77, 1, 1) 0%,
-    rgba(244, 136, 27, 1) 47%,
-    rgba(255, 235, 0, 1) 100%
-  );
-  display: flex;
-  flex-direction: column;
-  flex: 1 1 auto;
-  height: 80vh;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-`;
-
-const MainStyles = styled.main`
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  flex-wrap: wrap;
-`;
+import friedEgg from '../../img/Fried Egg.json';
+import { MainPageStyles, MainStyles } from './main-page.styles';
 
 export const MainPage: React.FC = () => {
   return (
@@ -35,7 +12,11 @@ export const MainPage: React.FC = () => {
         <CardLink title="X & O" descript="Naughts and Crosses" />
         <CardLink title="Kitchen Daydreams" descript="Recipe app" />
       </MainStyles>
-      <img src="" alt="animation" />
+      <Lottie
+        animationData={friedEgg}
+        loop={true}
+        style={{ margin: '-3% auto -5% auto', height: '250px', width: '250px' }}
+      />
     </MainPageStyles>
   );
 };
