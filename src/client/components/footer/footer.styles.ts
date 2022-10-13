@@ -6,7 +6,6 @@ export const StyledFooter = styled.footer`
   justify-content: space-evenly;
   flex: 0 0 auto;
   height: 20vh;
-  background: rgba(253, 255, 177, 1) 100%;
   width: 100%;
   padding-bottom: 100px;
 `;
@@ -37,11 +36,16 @@ export const ToolTip = styled.span`
   width: 80px;
   visibility: hidden;
   position: absolute;
-  background-color: #fffcda;
+  background: rgb(201, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(201, 255, 255, 1) 29%,
+    rgba(177, 255, 206, 1) 98%
+  );
   text-align: center;
   font-size: 12px;
   padding: 5px 0;
-  border: 1px solid #665f16;
+  border: 1px solid black;
 `;
 
 const fadeInOpactity = keyframes`

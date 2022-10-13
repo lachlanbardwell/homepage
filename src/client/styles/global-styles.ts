@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
 body, #root {
-  height: 100vh
+  height: 100vh;
 }
 
 body {
