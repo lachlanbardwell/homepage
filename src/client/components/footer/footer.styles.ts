@@ -7,7 +7,6 @@ export const StyledFooter = styled.footer`
   flex: 0 0 auto;
   height: 20vh;
   width: 100%;
-  padding-bottom: 100px;
 `;
 
 export const MyPicStyles = styled.img`
