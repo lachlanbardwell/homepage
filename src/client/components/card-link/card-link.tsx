@@ -10,7 +10,7 @@ import {
 
 export const CardLink: React.FC<ICardProps> = (props) => {
   return (
-    <CardStyles>
+    <CardStyles onClick={() => window.open(props.link)}>
       <CardTop>
         <CardTitle>{props.title}</CardTitle>
         {props.img}

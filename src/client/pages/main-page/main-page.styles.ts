@@ -16,4 +16,7 @@ export const MainStyles = styled.main`
   grid-template-columns: repeat(3, minmax(0, 1fr));
   flex-wrap: wrap;
   margin-bottom: 10%;
+  @media (max-width: 900px) {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
 `;

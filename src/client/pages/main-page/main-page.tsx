@@ -15,16 +15,19 @@ export const MainPage: React.FC = () => {
           title="Shopping List"
           descript="Select items from 4 Australian stores, uses simulated API data"
           img={<LottieImageSmall animationJson={fruitBasket} />}
+          link="https://shoppinglist.lachieb.dev"
         />
         <CardLink
           title="X & O"
           descript="Naughts and Crosses game for 2 players with alternating turns"
           img={<LottieImageSmall animationJson={game} />}
+          link="https://xando.lachieb.dev"
         />
         <CardLink
           title="Kitchen Daydreams"
           descript="Search for recipes from edamam API. Filter, sort and favourite results"
           img={<LottieImageSmall animationJson={friedEgg} />}
+          link="https://infinite-depths-41827.herokuapp.com/"
         />
       </MainStyles>
       <Footer />

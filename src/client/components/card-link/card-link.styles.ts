@@ -8,6 +8,14 @@ export const CardStyles = styled.article`
   margin: auto;
   border-radius: 7px;
   border: 1px solid black;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 500ms;
+  }
+  @media (max-width: 900px) {
+    margin: 3% 6% 3% 3%;
+  }
 `;
 
 export const CardTitle = styled.h5`
@@ -18,7 +26,7 @@ export const CardTop = styled.div`
   display: flex;
   flex-direction: column;
   border-radius: 7px 7px 0 0;
-  padding: 35px;
+  padding: 15px 35px 35px 35px;
   background: rgb(201, 255, 255);
   background: linear-gradient(
     180deg,
