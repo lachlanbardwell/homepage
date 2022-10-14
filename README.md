@@ -1,6 +1,6 @@
 ### My homepage app
 
-Lachieb.dev home page app to with links to my project builds.
+Lachieb.dev home page app with links to my project builds.
 
 To initialise project type
 

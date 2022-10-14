@@ -1,13 +1,23 @@
 import React from 'react';
 import { ICardProps } from '../../../types';
-import { CardStyles } from './card-link.styles';
+import {
+  CardDescript,
+  CardStyles,
+  CardTitle,
+  CardTop,
+  Descript,
+} from './card-link.styles';
 
 export const CardLink: React.FC<ICardProps> = (props) => {
   return (
     <CardStyles>
-      <h3>{props.title}</h3>
-      <img src="" alt="card img" />
-      <h5>{props.descript}</h5>
+      <CardTop>
+        <CardTitle>{props.title}</CardTitle>
+        {props.img}
+      </CardTop>
+      <CardDescript>
+        <Descript>{props.descript}</Descript>
+      </CardDescript>
     </CardStyles>
   );
 };
