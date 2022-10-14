@@ -13,7 +13,7 @@ export const CardStyles = styled.article`
     opacity: 0.8;
     transition: 500ms;
   }
-  @media (max-width: 900px) {
+  @media (max-width: 1000px) {
     margin: 3% 6% 3% 3%;
   }
 `;

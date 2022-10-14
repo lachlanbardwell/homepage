@@ -3,6 +3,10 @@ import { createGlobalStyle } from 'styled-components';
 const GlobalStyles = createGlobalStyle`
 body, #root {
   height: 100vh;
+  background: rgb(166,215,241);
+background: linear-gradient(180deg, rgba(166,215,241,1) 3%, rgba(66,209,209,1) 34%, rgba(187,255,199,1) 90%);
+position: relative;
+z-index: -2;
 }
 
 body {
