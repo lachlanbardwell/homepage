@@ -20,7 +20,7 @@ export const Footer: React.FC = () => {
         <LinkImgStyles
           src={github}
           alt="github"
-          onClick={() => window.open('https://github.com/KnowsJudo/')}
+          onClick={() => window.open('https://github.com/lachlanbardwell/')}
         />
         <ToolTip>GitHub</ToolTip>
       </IconDiv>
