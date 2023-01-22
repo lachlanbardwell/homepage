@@ -27,7 +27,7 @@ export const MainPage: React.FC = () => {
           title="Kitchen Daydreams"
           descript="Search for recipes from edamam API. Filter, sort and favourite results"
           img={<LottieImageSmall animationJson={friedEgg} />}
-          link="https://infinite-depths-41827.herokuapp.com/"
+          link="https://kitchen.lachieb.dev"
         />
       </MainStyles>
       <Footer />
