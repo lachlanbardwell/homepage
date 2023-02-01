@@ -3,7 +3,6 @@ export interface ICardProps {
   title: string;
   descript: string;
   img: React.ReactNode;
-  link: string;
 }
 
 export interface ILottieImg {
