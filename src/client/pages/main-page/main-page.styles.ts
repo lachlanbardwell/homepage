@@ -4,7 +4,7 @@ export const MainPageStyles = styled.div`
   display: flex;
   flex-direction: column;
   flex: 1 1 auto;
-  margin-top: 10%;
+  margin-top: 3%;
   width: 100%;
   align-items: center;
   justify-content: center;
@@ -15,8 +15,8 @@ export const MainStyles = styled.main`
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   flex-wrap: wrap;
-  margin-bottom: 10%;
-  @media (max-width: 1000px) {
+  margin-bottom: 3%;
+  @media (max-width: 1100px) {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 `;

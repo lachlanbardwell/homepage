@@ -6,15 +6,16 @@ export const CardStyles = styled.article`
   flex: 0 0 25vw;
   justify-content: center;
   margin: auto;
+  padding: 10px;
+  width: 350px;
   border-radius: 7px;
-  border: 1px solid black;
   &:hover {
     cursor: pointer;
     opacity: 0.8;
     transition: 500ms;
   }
-  @media (max-width: 1000px) {
-    margin: 3% 6% 3% 3%;
+  @media (max-width: 750px) {
+    margin-right: 15px;
   }
 `;
 
@@ -37,6 +38,7 @@ export const CardTop = styled.div`
 
 export const CardDescript = styled.div`
   border-radius: 0 0 7px 7px;
+  padding: 0 5px;
   background: #fff;
 `;
 
